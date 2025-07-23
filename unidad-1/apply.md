@@ -2,7 +2,38 @@
 
 ## 🛠 Fase: Apply
 
+## Actividad 5:
 
+Rectangulo que cambia de color al presionar un botón (A en este caso)
+
+En primer lugar recordemos que un sistema físico interactivo es el conjunto de Inputs, Procesamiento y Outputs; en este caso podemos dividir estos componentes dentro del programa:
+
+Inputs: En este caso los botones generan la interacción y el mismo Micro:Bit es el que envía la información al programa.
+Proceamiento: Diría es el programa p5js pues es quien interpreta los datos.
+Outputs: Recibimos el estímulo visual del cambio de color en el rectángulo.
+
+### 🧭 Resumen paso a paso – ¿Cómo funciona el código?
+
+1. **micro:bit (MicroPython)**
+   - Se configura el puerto serial con `uart.init()`.
+   - Dentro de un bucle infinito:
+     - Si el botón A está presionado, se envía `"A"`.
+     - Si no, se envía `"N"`.
+   - Estos datos se transmiten al computador por USB cada 100 milisegundos.
+
+2. **p5.js (JavaScript)**
+   - Se crea un canvas y un botón para conectar el micro:bit.
+   - Cada vez que se recibe un dato:
+     - Si es `"A"`, cambia el color de relleno a **rojo**.
+     - Si es `"N"`, cambia a **verde**.
+   - El rectángulo se dibuja en el centro del canvas con el color correspondiente.
+
+3. **Interacción visual**
+   - El usuario presiona o suelta el botón A.
+   - El sistema responde en tiempo real con un cambio de color.
+   - Esta es la manifestación del **output** en el sistema interactivo.
+
+---
 
 
 ## Actividad 6:
