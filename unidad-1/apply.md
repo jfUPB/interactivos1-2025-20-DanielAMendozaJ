@@ -5,13 +5,13 @@
 
 
 
-##Actividad 6:
-###Escribe el enlace a tu programa en el editor de p5.js.
+## Actividad 6:
+### Escribe el enlace a tu programa en el editor de p5.js.
 
 [Mueve la bola](https://editor.p5js.org/DanielAMendozaJ/sketches/4E8K_HAig)
 
 
-###Copia el código de tu programa en la bitácora (recuerda insertarlo usando markdown y el lenguaje javascript).
+### Copia el código de tu programa en la bitácora (recuerda insertarlo usando markdown y el lenguaje javascript).
 
 ```javascript
 let port;
@@ -75,9 +75,9 @@ function connectBtnClick() {
     port.close();
   }
 }
+```
 
-
-###Copia el código del micro:bit en la bitácora (recuerda insertarlo usando markdown y el lenguaje python).
+### Copia el código del micro:bit en la bitácora (recuerda insertarlo usando markdown y el lenguaje python).
 
 ```python
 from microbit import *
@@ -93,4 +93,4 @@ while True:
     else:
         uart.write('N')  # Enviar 'N' si no se presiona ningún botón (indiferente)
     sleep(100)
-
+```
