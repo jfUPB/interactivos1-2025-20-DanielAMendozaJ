@@ -2,7 +2,7 @@
 
 ## 🛠 Fase: Apply
 
-## Actividad 5:
+### Actividad 5:
 
 Rectangulo que cambia de color al presionar un botón (A en este caso)
 
@@ -12,7 +12,7 @@ Inputs: En este caso los botones generan la interacción y el mismo Micro:Bit es
 Proceamiento: Diría es el programa p5js pues es quien interpreta los datos.
 Outputs: Recibimos el estímulo visual del cambio de color en el rectángulo.
 
-### 🧭 Resumen paso a paso – ¿Cómo funciona el código?
+🧭 Resumen paso a paso – ¿Cómo funciona el código?
 
 1. **micro:bit (MicroPython)**
    - Se configura el puerto serial con `uart.init()`.
@@ -36,13 +36,14 @@ Outputs: Recibimos el estímulo visual del cambio de color en el rectángulo.
 ---
 
 
-## Actividad 6:
-### Escribe el enlace a tu programa en el editor de p5.js.
+### Actividad 6:
+
+Escribe el enlace a tu programa en el editor de p5.js.
 
 [Mueve la bola](https://editor.p5js.org/DanielAMendozaJ/sketches/4E8K_HAig)
 
 
-### Copia el código de tu programa en la bitácora (recuerda insertarlo usando markdown y el lenguaje javascript).
+Copia el código de tu programa en la bitácora (recuerda insertarlo usando markdown y el lenguaje javascript).
 
 ```javascript
 let port;
@@ -108,7 +109,7 @@ function connectBtnClick() {
 }
 ```
 
-### Copia el código del micro:bit en la bitácora (recuerda insertarlo usando markdown y el lenguaje python).
+Copia el código del micro:bit en la bitácora (recuerda insertarlo usando markdown y el lenguaje python).
 
 ```python
 from microbit import *
