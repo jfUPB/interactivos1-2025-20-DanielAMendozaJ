@@ -2,6 +2,8 @@
 
 ## 🤔 Fase: Reflect
 
+## ACtividad 7
+
 ### Parte 1: recuperación de conocimiento (Retrieval Practice)
 
 #### Basándote en los ejemplos que vimos de sistemas físicos interactivos al iniciar el curso, describe las tres características que definen a un sistema físico interactivo.
@@ -44,10 +46,21 @@ La información se interpreta, pero debemos buscar un condicional que nos permit
 
 #### ¿Qué fue más desafiante para ti en esta unidad: la parte conceptual (entender qué es un sistema físico interactivo) o la parte técnica (hacer que el micro:bit y p5.js se comunicaran)? ¿Por qué?
 
-
+Considero que no hubo mucho problema con la retención de los conceptos, aún así la parte de comprender el código es un poco interesante pues requiere completa y total atención respecto al contexto total del desarrollo del programa, tanto por parte del programa de desarrollo (o Output) y el programa que envía la información (o Input) del resto de la actividad es bastante comprensible.
 
 #### Describe el momento “¡Aha!” que tuviste cuando lograste que una acción en el micro:bit (presionar un botón, sacudirlo) tuviera un efecto visible en el canvas de p5.js por primera vez. ¿Qué fue lo que entendiste en ese instante?
 
+El momento "¡Aha!" que tuve fue cuando mande el código al micro:bit, pues se me había olvidado que para que el programa funcione correctamente debería implementar todo el código del Micro:bit a parte del de P5js, entonces descubrí que el mayor inconveniente al momento de desarrollar este tipo de experiencias no son problemas técnicos, sino la falta de concentración total en cada parte individual de la experiencia.
+
 #### Al inicio de la unidad te pregunté: “¿Este curso para qué me sirve?”. Después de experimentar y construir tu primer prototipo, ¿Cómo ha cambiado o se ha vuelto más concreta tu respuesta a esa pregunta?
 
+Desde el ámbito o camino que pienso seguir este curso me ayuda bastante, pues me permite descubrir muchas formas de "arte" entre código, máquina y usuario, arte que puede mostrarle al mundo sentimientos, historias o experiencias de maneras espectaculares para despertar en las personas esa llama de curiosidad o de gratificación. Aún recuerdo ese programa de nuestra compañera del semestre superior con la canción de AURORA, fue algo maravilloso y sé que este curso me ayudara a implementar técnicamente aquellas emociones que despiertan en mi y enseñarselas a las personas.
+
 #### El tutorial de la Actividad 05 te llevó paso a paso. ¿Cómo te sentiste con ese método de aprendizaje? ¿Te dio seguridad o preferirías haberlo intentado por tu cuenta desde el principio?
+
+Es perfecto. A veces menos es más y en este caso más es mejor, desde mi punto de vista como aprendíz visual y práctico me fue muy conveniente esta metodología
+
+
+
+## Actividad 8
+
