@@ -1,6 +1,6 @@
 # Unidad 2
 
-## 🔎 Fase: Set + Seek
+## 🔎 Fase: Set + Seek  
 
 
 
